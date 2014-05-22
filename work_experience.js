@@ -16,6 +16,8 @@ var WorkExperienceSchema = new Schema({
 });
 
 var EducationSchema = new Schema({
+  lastDate: Date, 
+  startDate: Date,
 	startDate: { year: Number, month: Number },
 	endDate: { year: Number, month: Number },
 	schoolName: String,
